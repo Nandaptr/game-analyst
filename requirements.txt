@@ -1,6 +1,6 @@
 streamlit
-pandas 
+pandas
 matplotlib
-seaborn 
+seaborn
 joblib
-LabelEncoder
+scikit-learn
