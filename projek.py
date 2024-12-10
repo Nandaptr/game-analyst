@@ -14,9 +14,9 @@ def load_data_and_model():
         df = pd.DataFrame()  # Return empty DataFrame
 
     try:
-        model = joblib.load('total_sales_predictor.pkl')
+        model = joblib.load('total_sales_predictor_compressed.pkl')
     except FileNotFoundError:
-        st.error("Model file 'total_sales_predictor.pkl' not found.")
+        st.error("Model file 'total_sales_predictor_compressed.pkl' not found.")
         model = None  # Return None if the model is unavailable
 
     return df, model
